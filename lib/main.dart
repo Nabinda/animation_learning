@@ -1,4 +1,3 @@
-import 'package:animation_learning/screens/animated_tween_example.dart';
 import 'package:animation_learning/screens/custom_reorderable_list.dart';
 import 'package:flutter/material.dart';
 
@@ -48,13 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            FilledButton(
-                onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (builder) {
-                    return const AnimatedTweenExample();
-                  }));
-                },
-                child: const Text('Animated Tween Example')),
             FilledButton(
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (builder) {
